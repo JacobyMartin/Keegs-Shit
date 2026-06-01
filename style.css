@@ -1,0 +1,96 @@
+    body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0d0d0d;
+            color: #fff;
+        }
+
+        header {
+            background: url('imgs/newestHome.jpg') center/cover no-repeat;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .dj-name {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 7.5rem;
+            letter-spacing: 5px;
+            color: #ffffff42;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px #ce47ae; 
+        }
+
+        nav {
+            background: #111;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        .social-links a{
+        display: inline-flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        text-decoration: none;
+        }
+
+        .social-logo {
+            width: 60px;
+            height: auto;
+            transition: transform 0.2s ease, opacity 0.2s ease;
+            filter: drop-shadow(0 0 8px rgba(230, 0, 255, 0.4));
+        }
+
+        .social-logo:hover {
+            transform: scale(1.15);
+            opacity: 0.85;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: auto;
+            background: #1a1a1a;
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #e600ff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            margin-top: 40px;
+        }
+        
