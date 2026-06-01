@@ -1,6 +1,7 @@
     body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
             background: #0d0d0d;
             color: #fff;
         }
@@ -19,7 +20,7 @@
             letter-spacing: 5px;
             color: #ffffff42;
             text-transform: uppercase;
-            text-shadow: 0 0 20px #ce47ae; 
+            text-shadow: 0 0 20px #cf1010d7; 
         }
 
         nav {
@@ -36,7 +37,7 @@
         }
 
         section {
-            padding: 60px 10%;
+            padding: 60px 5%;
         }
 
         .social-links a{
@@ -52,7 +53,7 @@
             width: 60px;
             height: auto;
             transition: transform 0.2s ease, opacity 0.2s ease;
-            filter: drop-shadow(0 0 8px rgba(230, 0, 255, 0.4));
+            filter: drop-shadow(0 0 8px #cf1010d7);
         }
 
         .social-logo:hover {
@@ -74,12 +75,14 @@
             margin: 10px 0;
             border: none;
             border-radius: 5px;
+            box-sizing: border-box;
+            resize: none; 
         }
 
         button {
             width: 100%;
             padding: 12px;
-            background: #e600ff;
+            background: #cf1010d7;
             border: none;
             border-radius: 5px;
             color: #fff;
